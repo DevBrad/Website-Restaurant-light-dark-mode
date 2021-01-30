@@ -11,7 +11,7 @@
 @media screen and (max-width: 768px) {
     .nav__menu {
         position: fixed;
-        top: $--header-height;
+        top: -100%;
         left: 0;
         width: 100%;
         padding: 1.5rem 0 1rem;
@@ -48,4 +48,9 @@
 .nav__toggle {
     font-size: 1.3rem;
     cursor: pointer;
+}
+
+/*Show menu */
+.show-menu {
+    top: $--header-height;
 }
