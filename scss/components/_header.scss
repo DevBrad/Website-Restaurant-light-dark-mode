@@ -54,3 +54,9 @@
 .show-menu {
     top: $--header-height;
 }
+
+/*=====Active Menu =====*/
+
+.active-link {
+    color: $--first-color;
+}
