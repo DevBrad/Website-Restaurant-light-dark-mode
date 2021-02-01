@@ -52,55 +52,8 @@ $--z-fixed: 100;
 
 /*===== Variables Dark Theme=====*/
 
-/*=====Button Dark/ Light=====*/
 
 
-/* =====Class css =====*/
 
-.section {
-    padding: 4rem 0 2rem;
-}
-
-.section-title, .section-subtitle {
-    text-align: center;
-}
-
-.section-title {
-    font-size: $--h1-font-size;
-    color: $--title-color;
-    margin-bottom: $--mb-3;
-}
-
-.section-subtitle {
-    display: block;
-    color: $--first-color;
-    font-weight: $--font-medium;
-    margin-bottom: $--mb-1;
-}
-
-
-/* =====Layout =====*/
-
-.bd-container {
-    max-width: 960px;
-    width: calc(100% - 2rem);
-    margin-left: $--mb-2;
-    margin-right: $--mb-2;
-}
-
-.bd-grid {
-    display: grid;
-    gap: 1.5rem;
-}
-
-.l-header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: $--z-fixed;
-    background-color: $--body-color;
-
-}
 
 
