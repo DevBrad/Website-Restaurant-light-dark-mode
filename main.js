@@ -49,3 +49,30 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive);
+
+/*=====Change Background Header =====*/
+function scrollHeader() {
+    const nav = document.getElementById('header');
+    //when the scroll is greater than 200 viewport height , add the scroll-header class to the header tag
+    if(this.scrollY >= 200) {
+        nav.classList.add('scroll-header')
+    } else {
+        nav.classList.remove('scroll-header')
+    }
+}
+
+window.addEventListener('scroll', scrollHeader);
+
+/*===== SHOW SCROLL TOP ===== */
+
+function scrollTop() {
+    const scrollTop = document.getElementById('scroll-top');
+    // When the user scroll is higher than 560 viewport height, add the show-scroll class to the a tag with th class scroll-top class
+    if(this.scrollY >= 560) {
+        scrollTop.classList.add('scroll-top')
+    } else {
+        scrollTop.classList.remove('scroll-top')
+    }
+}
+
+window.addEventListener('scroll', scrollTop);
