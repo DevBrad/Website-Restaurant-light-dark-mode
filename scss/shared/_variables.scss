@@ -51,7 +51,12 @@ $--z-fixed: 100;
 }
 
 /*===== Variables Dark Theme=====*/
-
+body.dark-theme {
+    $--title-color: #F1F3F2;
+    $--text-color: #C7D1CC;
+    $--body-color: #1D2521;
+    $--container-color: #27302C;
+}
 
 
 
