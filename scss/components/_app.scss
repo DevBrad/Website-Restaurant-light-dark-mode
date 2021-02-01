@@ -1,0 +1,24 @@
+.app {
+
+    &__data {
+        text-align: center;
+    }
+
+    &__description {
+        margin-bottom: $--mb-5;
+    }
+
+    &__stores {
+        margin-bottom: $--mb-4;
+    }
+
+    &__store {
+        width: 120px;
+        margin: 0 $--mb-1;
+    }
+
+    &__img {
+        width: 230px;
+        justify-self: center;
+    }
+}
